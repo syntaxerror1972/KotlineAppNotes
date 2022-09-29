@@ -45,7 +45,13 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:2.0.0-rc01"
     implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
 
+    // LiveData
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
+    //fragment
+    implementation 'androidx.fragment:fragment-ktx:1.4.1'
+
     apply plugin: 'com.android.application'
     apply plugin: 'kotlin-android'
     apply plugin: 'kotlin-android-extensions'
+
 }
